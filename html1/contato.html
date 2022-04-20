@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/estilo.css">
+
+    <title>Contato</title>
+  </head>
+  
+  <body class="centro fundo">
+
+    <header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Entrar</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+      <form>Contato</form>
+    </header>
+
+    <main>
+      <form action="/formulario-contato" method="post">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="texto" id="nome" name="nome_usuario" placeholder="Seu nome" />
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email_usuario" placeholder="seuemail@email.com"/>
+        </div>
+        <div>
+          <label for="texto">Texto:</label>
+          <textarea id="texto" name="texto_usuario" placeholder="Digite aqui"></textarea>
+        </div>
+      </form>
+      <div class="button">
+        <button type="submit">Enviar</button>
+      </div>
+    </main>
+
+    <footer>Rodapé</footer>
+  </body>
+</html>
