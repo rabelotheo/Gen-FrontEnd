@@ -12,6 +12,9 @@ function clicar(){
     alert("Você clicou no botão")
 }
 
+let text = "Olá Tudo bem?";
+let result = text.indexOf("Tudo Sim");
+
 let nome = window.document.getElementById('nome')
 let email = document.getElementById('email')
 let assunto = document.getElementById('assunto')
